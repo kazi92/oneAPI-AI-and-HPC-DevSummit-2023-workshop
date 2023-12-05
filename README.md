@@ -31,7 +31,9 @@ Steps to execute:
 
   ## 2. Install the dependencies and library packages required to run the application
 
-  Command:  pip install huggingface_hub gradio 
+  Command:
+  
+     pip install huggingface_hub gradio 
 
   ## 3. Open a .py file and copy the code or upload the .py file
 
