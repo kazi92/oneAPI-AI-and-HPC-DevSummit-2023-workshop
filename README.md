@@ -9,6 +9,8 @@ The # Intel Developer Cloud (IDC) # is a cloud-based platform that provides deve
 
 In this setup, you would develop your LLM chatbot application, then deploy it on the IDC. This allows you to take full advantage of the capabilities of these processors and the flexibility and scalability of cloud computing.
 
+For video step through guide please [refer to this YoutTube video](https://www.youtube.com/watch?v=K4nl33oL_n8).
+
 Steps to execute:
 
 # a. Register in Intel Developer Cloud
