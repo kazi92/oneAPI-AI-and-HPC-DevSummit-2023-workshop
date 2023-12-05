@@ -89,9 +89,9 @@ Steps to execute:
     `7860`: This is the port number on your local machine that `ngrok` will expose to the internet. In this case, `ngrok` will tunnel       
      traffic from the public internet to your local machine's port 7860.
 
-    When you run this command, `ngrok` will provide a public URL (like `http://<random-subdomain>.ngrok.io`) that you can use to access your     local web server from anywhere on the internet. Any HTTP requests made to this public URL will be forwarded to your local machine on         port 7860.
-
-    This is particularly useful for testing local websites or web services, sharing your local development server with others, or exposing       local services for webhook integrations.
+    When you run this command, `ngrok` will provide a public URL (like `http://<random-subdomain>.ngrok.io`) that you can use to access 
+    your local web server from anywhere on the internet. Any HTTP requests made to this public URL will be forwarded to your local 
+    machine on port 7860.
 
     
 
