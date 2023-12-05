@@ -20,7 +20,7 @@ Steps to execute:
   6.Enter your Intel Developer Cloud code provided to setup a bare metal server instance.
 
 # b. Setup an instance 
-  # 1.Setup a conda environment after you access the instance 
+  ## 1. Setup a conda environment after you access the instance 
 
     mkdir -p ~/miniconda3
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
@@ -29,16 +29,16 @@ Steps to execute:
 
     ~/miniconda3/bin/conda init bash
 
-  # 2.Install the dependencies and library packages required to run the application
+  ## 2. Install the dependencies and library packages required to run the application
 
   Command:  pip install huggingface_hub gradio 
 
-  # 3. Open a .py file and copy the code or upload the .py file
+  ## 3. Open a .py file and copy the code or upload the .py file
 
-  # 4. Use the following command below :
+  ## 4. Use the following command below :
 
-  curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok- 
-  agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok
+    curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo \
+    "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok
 
   This command is a one-liner that installs `ngrok` on a Linux system. It's a sequence of commands combined using `&&` operator, which means 
   the next command will only run if the previous command succeeds. Let's break it down:
@@ -67,7 +67,7 @@ Steps to execute:
    In summary, this command sequence is adding the ngrok repository to your system's package manager, updating the package list, and then 
    installing ngrok.
 
-  # 5.Use the following command:
+  ## 5. Use the following command:
 
     ngrok config add-authtoken <authtoken>
 
@@ -78,7 +78,7 @@ Steps to execute:
     Please note that the authtoken provided in the command is just an example and should be replaced with your actual ngrok authtoken. 
     You canfind your authtoken in your ngrok dashboard after signing in to your account.
 
-  # 6. Open another terminal 
+  ## 6. Open another terminal 
   
     Use the following command 
 
@@ -92,10 +92,3 @@ Steps to execute:
     When you run this command, `ngrok` will provide a public URL (like `http://<random-subdomain>.ngrok.io`) that you can use to access 
     your local web server from anywhere on the internet. Any HTTP requests made to this public URL will be forwarded to your local 
     machine on port 7860.
-
-    
-
-
-
-
-
