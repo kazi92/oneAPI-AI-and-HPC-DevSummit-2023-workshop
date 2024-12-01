@@ -73,7 +73,7 @@ Steps to execute:
 
     Example :
 
-    ngrok config add-authtoken 219XW8KAr0Dbi5PVkTlS4HUkM5B_77YQKUJ7e1AgtThaEBYPo
+    ngrok config add-authtoken <>
 
     Please note that the authtoken provided in the command is just an example and should be replaced with your actual ngrok authtoken. 
     You canfind your authtoken in your ngrok dashboard after signing in to your account.
