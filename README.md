@@ -1,4 +1,4 @@
-# oneAPI-AI-and-HPC-DevSummit-2023-workshop
+# oneAPI-AI-and-HPC-DevSummit-workshop
 # LLM Custom Chatbot development with Huggingface opensource Mistral 7B model with Intel Developer Cloud (IDC)
 
 Developing a custom Language Learning Model (LLM) chatbot on Intel Xeon processors using the Intel Developer Cloud (IDC) involves leveraging the advanced capabilities of these processors and the robust tools provided by Intel Developer Cloud (IDC).
